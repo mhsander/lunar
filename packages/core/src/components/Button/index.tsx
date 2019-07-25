@@ -77,6 +77,7 @@ export class Button extends React.Component<Props & WithStylesProps> {
         )}
       >
         {loading ? <Loader inline inverted={!inverted} /> : children}
+        {`!`}
       </ButtonOrLink>
     );
   }
